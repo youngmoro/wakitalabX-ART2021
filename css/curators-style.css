@@ -1,0 +1,22 @@
+.main-visual-space {
+   width: 100%;
+   padding-bottom: 162px;
+}
+
+.note-title{
+  padding-top: 40px;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.caption-20{
+  padding-top: 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.caption-40{
+  padding-top: 40px;
+  font-size: 20px;
+  font-weight: 700;
+}
