@@ -53,9 +53,12 @@ ul {
 
 .archive-img{
   margin-top: 20px;
-  justify-content: center;
+  /* justify-content: center;
   flex-wrap: wrap;
-  display: flex;
+  display: flex; */
+  width: calc(225.5px * 4 + 20px * 4);
+  margin: 0 auto;
+  overflow:hidden;
 }
 
 .archive-img img {
@@ -66,16 +69,13 @@ ul {
   max-height: 100%;
   width: 225.5px;
   height: 126px;
-  vertical-align: middle;
-}
-
-.archive-img .hidden-img{
-  text-align: center;
-  display: none;
-}
-
-.archive-img .hidden-img-view{
   display: block;
+  float:left;
+  /* vertical-align: middle; */
+}
+
+.archive-img .hidden{
+  display: none;
 }
 
 .nav-title {
@@ -123,6 +123,10 @@ main{
   font-weight: 700;
 }
 
+.hidden-note{
+  display: none;
+}
+
 .button-wrapper{
   margin-top: 40px;
   text-align: center;
@@ -134,11 +138,28 @@ main{
   height: 50px;
   color: white;
   background: #000;
+  font-size: 16px;
+  overflow: hidden;
 }
 
 .view-more:hover{
   color: black;
   background: #fff;
+}
+
+.text-more::before{
+  display: block;
+  font-size: 16px;
+  content: "View More";
+}
+
+.text-less{
+  display:none;
+}
+
+.text-less::before{
+  font-size: 16px;
+  content: "View Less";
 }
 
 .gmap {
