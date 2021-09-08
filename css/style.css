@@ -69,6 +69,15 @@ ul {
   vertical-align: middle;
 }
 
+.archive-img .hidden-img{
+  text-align: center;
+  display: none;
+}
+
+.archive-img .hidden-img-view{
+  display: block;
+}
+
 .nav-title {
   margin: 0 0 0 30px;
   font-size: 18px;
