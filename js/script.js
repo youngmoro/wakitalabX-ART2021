@@ -1,5 +1,5 @@
 $('#view-more-img').on('click', function () {
-  $('.archive-img .hidden').stop().fadeToggle(300);
+  $('.hidden-img').stop().fadeToggle(300);
   $('#view-more-img .text-less').stop().fadeToggle(300);
   $('#view-more-img .text-more').stop().fadeToggle(300);
 });
