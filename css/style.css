@@ -59,6 +59,7 @@ ul {
   overflow:hidden;
 }
 
+
 .archive-img img {
   /* margin-right: 10px;
   margin-left: 10px; */
@@ -74,7 +75,19 @@ ul {
   display: none;
 }
 
-.hidden-img-flex{
+.archive-img:after{
+  content: "";
+  width: 18vw;
+  height: 0;
+}
+
+.archive-img:before{
+  content: "";
+  width: 18vw;
+  order: 1;
+}
+
+/* .hidden-img-flex{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -93,7 +106,7 @@ ul {
   display: block;
   width: 18vw;
   height: 0;
-}
+} */
 
 .nav-title {
   margin: 0 0 0 30px;
