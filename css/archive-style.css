@@ -18,13 +18,14 @@
 }
 
 .work-title{
-  padding-top: 40px;
+  margin-top: 40px;
   font-size: 28px;
   font-weight: 700;
+  line-height: 100%;
 }
 
 .caption-20{
-  padding-top: 20px;
+  margin-top: 20px;
   font-size: 20px;
   font-weight: 700;
 }
@@ -33,4 +34,5 @@
   padding-top: 40px;
   font-size: 20px;
   font-weight: 700;
+  line-height: 32px;
 }

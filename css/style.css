@@ -1,6 +1,15 @@
 a, button {
   transition: all 0.3s ease;
   text-decoration:none;
+  color: black;
+}
+
+a:hover{
+  opacity: 0.2;
+}
+
+a:hover .child-hover{
+  opacity: 0.2;
 }
 
 html {
@@ -14,18 +23,20 @@ html {
 }
 
 body {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
+  font-style: normal;
   font-family: 'Noto Sans JP', sans-serif;
+  line-height: 100%;
+  letter-spacing: 0.05em;
 }
 
 header {
-  padding: 10px 4% 10px;
+  padding: 0px;
   position: absolute;
-  top: 0;
   width: 100%;
   display: flex;
-  align-items: center;
+  justify-content: flex-start;
 }
 
 hr{
@@ -34,21 +45,28 @@ hr{
 }
 
 .site-title {
+  font-style: normal;
   font-size: 32px;
+  line-height: 100%;
+  font-weight: 900;
   margin-left: 60px;
   margin-top: 50px;
-  padding: 0;
+  margin-right: 0px
+  padding: 0px;
+  letter-spacing: 0.05em;
 }
 
-nav {
-  margin: 0 0 0 auto;
+.alphabet{
+  font-family: 'Roboto';
 }
+
 
 ul {
    list-style: none;
-   margin-right: 30px;
    display: flex;
    flex-wrap: wrap;
+   padding: 0px;
+   margin: 0px;
 }
 
 .archive-img{
@@ -87,30 +105,19 @@ ul {
   order: 1;
 }
 
-/* .hidden-img-flex{
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+.nav-titles {
+  letter-spacing: 0.05em;
+  margin-top: 59px;
+  margin-left: 33px;
+  margin-right: 30px
 }
 
-.hidden-img-flex::before{
-  content:"";
-  display: block;
-  width:18vw;
-  height: 0;
-  order:1;
-}
-
-.hidden-img-flex::after {
-  content: "";
-  display: block;
-  width: 18vw;
-  height: 0;
-} */
 
 .nav-title {
-  margin: 0 0 0 30px;
+  margin: 0px 0px 0px 30px;
+  font-weight: 700;
   font-size: 18px;
+  line-height: 100%;
 }
 
 .nav-link {
@@ -134,7 +141,7 @@ main{
   color: black;
   font-size: 32px;
   font-weight: 800;
-  margin-top: 80px;
+  padding-top: 80px;
   margin-bottom: 20px;
   text-align: center;
 }
@@ -144,6 +151,7 @@ main{
   margin-bottom: 0px;
   font-size: 16px;
   font-weight: 700;
+  line-height: 160%;
 }
 
 .description-20{
@@ -220,15 +228,20 @@ max-width: 100%;
 .form-text{
   width: 100%;
   height: 40px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  margin-top: 20px;
 }
 
 .form-textarea{
   width: 100%;
   height: 140px;
+  margin-top: 20px;
 }
 
 .footer {
   font-size: 20px;
+  font-weight: 400;
   margin-top: 100px;
   margin-bottom: 80px;
   text-align: center;

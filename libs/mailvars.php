@@ -1,12 +1,12 @@
 <?php
 //メールの宛先（To）のメールアドレス
-define('MAIL_TO', "");
+define('MAIL_TO', "morofujix@keio.jp");
 //メールの宛先（To）の名前
-define('MAIL_TO_NAME', "");
+define('MAIL_TO_NAME', "Morofuji");
 //Cc の名前
 define('MAIL_CC', '');
 //Cc の名前
-define('MAIL_CC_NAME', 'Yuta Morofuji');
+define('MAIL_CC_NAME', '');
 //Bcc
 // define('MAIL_BCC', 'xxxxx@xxxxx.com');
 //Return-Pathに指定するメールアドレス
