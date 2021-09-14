@@ -188,9 +188,11 @@
 		<input type="email" name="email" class="form-text" />
 		<p class="description-20">内容*</p>
 		<textarea name="message" class="form-textarea"></textarea>
-    <button type="submit" name="submitted" class="submit button-wrapper">
+    <div class="button-wrapper">
+      <button type="submit" name="submitted" class="submit">
       送信する
-    </button>
+      </button>
+    </div>
 	</main>
 	<footer class="text-center">
 		<p class="footer alphabet">Copyright &copy; 2021 wakitaLabX-ART, All Rights Reserved.</p>
