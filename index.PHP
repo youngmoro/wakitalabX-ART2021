@@ -120,5 +120,78 @@
 		<p class="footer alphabet">Copyright &copy; 2021 wakitaLabX-ART, All Rights Reserved.</p>
 	</footer>
 	<script src="js/script.js"></script>
+	<?php
+	 require 'libs/functions.php';
+
+	 $name = isset( $_POST[ 'name' ] ) ? $_POST[ 'name' ] : NULL;
+	 $email = isset( $_POST[ 'email' ] ) ? $_POST[ 'email' ] : NULL;
+	 $message = isset( $_POST[ 'message' ] ) ? $_POST[ 'message' ] : NULL;
+	 $subject = isset( $_POST[ 'subject' ] ) ? $_POST[ 'subject' ] : NULL;
+
+	 if (isset($_POST['submitted'])) {
+
+	   $_POST = checkInput( $_POST );
+
+	   if(isset($_POST['name'])) {
+	     $name = filter_var($_POST['name'], FILTER_SANITIZE_STRING);
+	   }
+
+	   if(isset($_POST['email'])) {
+	     $email = str_replace(array("\r", "\n", "%0a", "%0d"), '', $_POST['email']);
+	     $email = filter_var($email, FILTER_VALIDATE_EMAIL);
+	   }
+
+	   if(isset($_POST['message'])) {
+	     $message = filter_var($_POST['message'], FILTER_SANITIZE_STRING);
+	   }
+
+	   if ($_SERVER['REQUEST_METHOD']==='POST') {
+
+	     require 'libs/mailvars.php';
+
+	     $mail_body = 'コンタクトページからのお問い合わせ' . "\n\n";
+	     $mail_body .=  "お名前： " .h($name) . "\n";
+	     $mail_body .=  "電話番号： " .h($phone) . "\n";
+	     $mail_body .=  "Email： " . h($email) . "\n"  ;
+	     $mail_body .=  "＜お問い合わせ内容＞" . "\n" . h($message);
+
+	     //-------- sendmail
+	     $mailTo = mb_encode_mimeheader(MAIL_TO_NAME) ."<" . MAIL_TO. ">";
+
+	     $returnMail = MAIL_RETURN_PATH;
+
+	     mb_language( 'ja' );
+	     mb_internal_encoding( 'UTF-8' );
+
+
+	     $header = "From: " . mb_encode_mimeheader($name) ."<" . $email. ">\n";
+	     $header .= "Cc: " . mb_encode_mimeheader(MAIL_CC_NAME) ."<" . MAIL_CC.">\n";
+	     // $header .= "Bcc: <" . MAIL_BCC.">";
+
+
+	     if ( ini_get( 'safe_mode' ) ) {
+	       $result = mb_send_mail( $mailTo, $subject, $mail_body, $header );
+	     } else {
+	       $result = mb_send_mail( $mailTo, $subject, $mail_body, $header, '-f' . $returnMail );
+	     }
+
+
+	     if ( $result ) {
+	       $_POST = array();
+	       $name = '';
+	       $email = '';
+	       $message = '';
+
+	       $params = '?result='. $result;
+	       if(isset($_SERVER['HTTP_X_FORWARDED_PROTO']) and $_SERVER['HTTP_X_FORWARDED_PROTO'] === "https") {
+	         $_SERVER['HTTPS'] = 'on';
+	       }
+	       $url = (empty($_SERVER['HTTPS']) ? 'http://' : 'https://').$_SERVER['HTTP_HOST'].$_SERVER['SCRIPT_NAME'];
+	       header('Location:' . $url . $params);
+	       exit;
+	     }
+	   }
+	 }
+	 ?>
 </body>
 </html>
