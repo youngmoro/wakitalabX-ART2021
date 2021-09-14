@@ -188,7 +188,7 @@
 		<input type="email" name="email" class="form-text" />
 		<p class="description-20">内容*</p>
 		<textarea name="message" class="form-textarea"></textarea>
-    <button type="submit" name="submitted" class="submit">
+    <button type="submit" name="submitted" class="submit button-wrapper">
       送信する
     </button>
 	</main>
