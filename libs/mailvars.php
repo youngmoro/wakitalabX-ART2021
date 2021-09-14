@@ -13,4 +13,3 @@ define('MAIL_CC_NAME', '');
 define('MAIL_RETURN_PATH', '');
 //自動返信の返信先名前（自動返信を設定する場合）
 // define('AUTO_REPLY_NAME', '返信先名前');
-?>
