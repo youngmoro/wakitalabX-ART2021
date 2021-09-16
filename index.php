@@ -15,6 +15,10 @@
 		 $name = filter_var($_POST['name'], FILTER_SANITIZE_STRING);
 	 }
 
+   if(isset($_POST['phone'])) {
+     $phone = filter_var($_POST['phone'], FILTER_SANITIZE_NUMBER_INT);
+   }
+
 	 if(isset($_POST['email'])) {
 		 $email = str_replace(array("\r", "\n", "%0a", "%0d"), '', $_POST['email']);
 		 $email = filter_var($email, FILTER_VALIDATE_EMAIL);
@@ -31,21 +35,21 @@
 		 $mail_body = 'コンタクトページからのお問い合わせ' . "\n\n";
 		 $mail_body .=  "お名前： " .h($name) . "\n";
 		 $mail_body .=  "電話番号： " .h($phone) . "\n";
-		 $mail_body .=  "Email： " . h($email) . "\n"  ;
+		 $mail_body .=  "Email： " . h($email) . "\n";
 		 $mail_body .=  "＜お問い合わせ内容＞" . "\n" . h($message);
 
 		 //-------- sendmail
 		 $mailTo = mb_encode_mimeheader(MAIL_TO_NAME) ."<" . MAIL_TO. ">";
 
 		 // $returnMail = MAIL_RETURN_PATH;
-     $returnMail = $email;
+     $returnMail = isset( $_POST[ 'email' ] ) ? $_POST[ 'email' ] : NULL;
 
 		 mb_language( 'ja' );
 		 mb_internal_encoding( 'UTF-8' );
 
 
-		 $header = "From: " . mb_encode_mimeheader($name) ."<" . $email. ">\n";
-		 $header .= "Cc: " . mb_encode_mimeheader(MAIL_CC_NAME) ."<" . MAIL_CC.">\n";
+		 $header = "From: " . mb_encode_mimeheader($name) ."<" . $returnMail. ">\n";
+		 // $header .= "Cc: " . mb_encode_mimeheader(MAIL_CC_NAME) ."<" . MAIL_CC.">\n";
 		 // $header .= "Bcc: <" . MAIL_BCC.">";
 
 
@@ -179,9 +183,11 @@
 				< /button>
 		</div>
     <?php  if ( isset($_GET['result']) && $_GET['result'] ):?>
+    <hr>
     <h4>Sending succeeded</h4>
     <hr>
     <?php elseif (isset($result) && !$result ):?>
+    <hr>
     <h4>Sending failed</h4>
     <hr>
     <?php endif; ?>
@@ -190,7 +196,7 @@
   		<p class="description-20">お名前*</p>
   		<input type="text" name="name" class="form-text" />
   		<p class="description-20">電話番号*</p>
-  		<input type="tel" name="phone" class="form-text" />
+  		<input type="text" name="phone" class="form-text" />
   		<p class="description-20">メールアドレス*</p>
   		<input type="email" name="email" class="form-text" />
   		<p class="description-20">メールアドレス再入力*</p>
