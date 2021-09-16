@@ -2,6 +2,7 @@
  require 'libs/functions.php';
 
  $name = isset( $_POST[ 'name' ] ) ? $_POST[ 'name' ] : NULL;
+ $phone　= isset( $_POST[ 'phone' ] ) ? $_POST[ 'phone' ] : NULL;
  $email = isset( $_POST[ 'email' ] ) ? $_POST[ 'email' ] : NULL;
  $message = isset( $_POST[ 'message' ] ) ? $_POST[ 'message' ] : NULL;
  $subject = isset( $_POST[ 'subject' ] ) ? $_POST[ 'subject' ] : NULL;
@@ -36,7 +37,8 @@
 		 //-------- sendmail
 		 $mailTo = mb_encode_mimeheader(MAIL_TO_NAME) ."<" . MAIL_TO. ">";
 
-		 $returnMail = MAIL_RETURN_PATH;
+		 // $returnMail = MAIL_RETURN_PATH;
+     $returnMail = $email;
 
 		 mb_language( 'ja' );
 		 mb_internal_encoding( 'UTF-8' );
@@ -176,23 +178,31 @@
 				<p class="text-less"></p>
 				< /button>
 		</div>
-
-		<h2 class="section-title alphabet" id="Contact">Contact</h2>
-		<p class="description-20">お名前*</p>
-		<input type="text" name="name" class="form-text" />
-		<p class="description-20">電話番号*</p>
-		<input type="tel" name="phone" class="form-text" />
-		<p class="description-20">メールアドレス*</p>
-		<input type="email" name="email" class="form-text" />
-		<p class="description-20">メールアドレス再入力*</p>
-		<input type="email" name="email" class="form-text" />
-		<p class="description-20">内容*</p>
-		<textarea name="message" class="form-textarea"></textarea>
-    <div class="button-wrapper">
-      <button type="submit" name="submitted" class="submit">
-      送信する
-      </button>
-    </div>
+    <?php  if ( isset($_GET['result']) && $_GET['result'] ):?>
+    <h4>Sending succeeded</h4>
+    <hr>
+    <?php elseif (isset($result) && !$result ):?>
+    <h4>Sending failed</h4>
+    <hr>
+    <?php endif; ?>
+    <form method="POST">
+  		<h2 class="section-title alphabet" id="Contact">Contact</h2>
+  		<p class="description-20">お名前*</p>
+  		<input type="text" name="name" class="form-text" />
+  		<p class="description-20">電話番号*</p>
+  		<input type="tel" name="phone" class="form-text" />
+  		<p class="description-20">メールアドレス*</p>
+  		<input type="email" name="email" class="form-text" />
+  		<p class="description-20">メールアドレス再入力*</p>
+  		<input type="email" name="email" class="form-text" />
+  		<p class="description-20">内容*</p>
+  		<textarea name="message" class="form-textarea"></textarea>
+      <div class="button-wrapper">
+        <button type="submit" name="submitted" class="submit">
+        送信する
+        </button>
+      </div>
+    </form>
 	</main>
 	<footer class="text-center">
 		<p class="footer alphabet">Copyright &copy; 2021 wakitaLabX-ART, All Rights Reserved.</p>
