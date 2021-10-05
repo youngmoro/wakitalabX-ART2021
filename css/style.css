@@ -129,12 +129,24 @@ main{
   margin-left: 159px;
 }
 
-.main-visual {
+.header-background {
    display: flex;
    justify-content: center;
    align-items: center;
    height: 720px;
    background: url('../img/dummy.png') top center / cover no-repeat;
+}
+
+.main-visual {
+   margin-top: 112px;
+   margin-left: 25%;
+   margin-right: 25%;
+}
+
+.main-visual img{
+  width: 100%;
+  /* max-width: 1000px; */
+  max-height: 508px;
 }
 
 .section-title {

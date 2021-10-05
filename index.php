@@ -105,7 +105,7 @@
 			<ul>
 				<li class="nav-title"><a href="#Archive" class="nav-link">Archive</a></li>
 				<li class="nav-title"><a href="#Concept" class="nav-link">Concept</a></li>
-				<li class="nav-title"><a href="#Artists" class="nav-link">Artists</a></li>
+				<li class="nav-title"><a href="#Participants" class="nav-link">Participants</a></li>
 				<li class="nav-title"><a href="#Schedule" class="nav-link">Schedule</a></li>
 				<li class="nav-title"><a href="#Access" class="nav-link">Access</a></li>
 				<li class="nav-title"><a href="#curatorsNote" class="nav-link">Curator's note</a></li>
@@ -114,10 +114,13 @@
 		</nav>
 	</header>
 
-	<div class="main-visual"></div>
+  <div class="header-background">
+    <div class="main-visual">
+      <img src="img/header-img.png">
+    </div>
+  </div>
 
 	<main>
-
 		<h2 class="section-title alphabet" id="Archive">Archive</h2>
 		<div class="archive-img">
 			<div class="not-hidden-img"><a href="archives/archive.html"><img src="img/dummy.png"></a></div>
@@ -145,9 +148,14 @@
 		<h2 class="section-title alphabet" id="Concept">Concept</h2>
 		<p class="description">もはや、インターネットは古臭く、連帯や協働、オンラインや遠隔といった言葉はミノタウロスの彫刻のようになってしまった。誰もが同時的に接続し、関係性のあわいを常に更新し続ける流動的な彫刻としての現在《いま・ここ》は、分断によって再構築されている。もはや、我々には同時接続しか残されていないのか。
 				<br><br>悲劇の後には、連帯が生まれる。ちょうど、フィブリノーゲンがトロンビンによって凝固血栓を作り、傷口を塞ぐようなやり方で、それぞれのセクターが引力を持ちながら回転しつつ引き合う。かつてあった強烈な境界線〈罹災者・傍観者・感染者・非感染者〉は過去の遺物になり、新しい日常を出迎える。
-				<br><br>すなはちは、人みなあぢきなき事をのべて、いさゝか心のにごりもうすらぐとみえしかど、月日かさなり、年へにしのちは、ことばにかけていひいづる人だになし。（――鴨長明、方丈記による）</p>
+				<br><br>すなはちは、人みなあぢきなき事をのべて、いさゝか心のにごりもうすらぐとみえしかど、月日かさなり、年へにしのちは、ことばにかけていひいづる人だになし。（――鴨長明、方丈記による）
+        <br><br>《いま・ここ》で紡がれつづける悲劇の記憶や、喜ばしい生の歴史、さまざまな憎悪、感謝――それらを創作物によってアーカイブしていくことは、同時に忘却するための準備運動でもある。
+        <br>残すことで、悲しみや喜びを捨て去り、まっさらな（しかし傷だらけの）「わたし」で居続けることができるのだ。ベッドの下に落ちているメモや、どこかのファイルに置き忘れた画像、本に挟んだままの涙などを、陽光に透かし、SNSという止め処ない濁流に祈る。リプライやRTでつながり、アーカイブで記憶とつながる。常に変化しつづける《いま・ここ》で、忘れる権利は、まだわたしたちのものだ。
+        <br><br>民主化し続けるプラットフォーム、接続の場は常に脅かされ、拡張し、多元的な現在を構築する。それに対する忘却や、鋭い記憶や、あらゆる態度が——いわば、警戒と許容の共同墜落——、数多の領域を切り拓いてきたのではないか。イカロスの寓話は、しばしばテクノロジーへの警鐘に引用される。しかし、真実とはそのように幾つもの墜落から構成されてきたように思う。
+        <br><br>現実からいろんな断片を拾い上げて、組み立て直すだけよ。耐えがたい偽りだらけの平凡な日常から、逃避したつもりでも——結局、その平凡さや偽りが並べ直されただけ。（—— angels in america chapter 1）
+        <br><br>強烈な可視光線は目を傷めるように、真実は時折痛みを伴う。芸術やその他一切の文化的活動は、目撃者になりうるし、【痛みやそれへのトラウマ、同時に癒し】を練り上げ、共感することによってカタルシスをもたらす。もはや、悲劇が日常化した現在において、言い換えれば、絶え間ない喪の現在において、二項対立はお呼びでない。接続しているかもしれないし、していないかもしれない。そうであるべきだったかもしれないし、そうでなかったことにもできる。そうした、あれであれ、これであれ、曖昧な共感と曖昧な反発と——【（曖昧な）（共感・否定・獲得・喪失・肯定・治癒・化膿・破壊…）】といった水準で、我々は抵抗し続けたい。絶えず変化しつづけるリズムが織りなす現在の網目をすり抜けて、一歩先の、いま、まさに消え去りながら揺蕩う水面で前を向く——これこそが、我々の責務である。</p>
 
-		<h2 class="section-title alphabet" id="Artists">Artists</h2>
+		<h2 class="section-title alphabet" id="Participants">Participants</h2>
 		<p class="description">植田理紗子／小川楽生／工藤望／柴原佳範／鈴木一生／武谷梨紗子／ホシバナ（酒井瑛一、勝沼千秋）／本堂莉理／松橋百葉／眞鍋創人／諸藤勇太／山下光</p>
 
 		<h2 class="section-title alphabet" id="Schedule">Schedule</h2>
@@ -182,18 +190,18 @@
 				<p class="text-less"></p>
 				< /button>
 		</div>
-    <?php  if ( isset($_GET['result']) && $_GET['result'] ):?>
-    <hr>
-    <h4>Sending succeeded</h4>
-    <hr>
-    <?php elseif (isset($result) && !$result ):?>
-    <hr>
-    <h4>Sending failed</h4>
-    <hr>
-    <?php endif; ?>
     <form method="POST">
   		<h2 class="section-title alphabet" id="Contact">Contact</h2>
-  		<p class="description-20">お名前*</p>
+      <?php  if ( isset($_GET['result']) && $_GET['result'] ):?>
+      <hr>
+      <h4>Sending succeeded</h4>
+      <hr>
+      <?php elseif (isset($result) && !$result ):?>
+      <hr>
+      <h4>Sending failed</h4>
+      <hr>
+      <?php endif; ?>
+      <p class="description-20">お名前*</p>
   		<input type="text" name="name" class="form-text" />
   		<p class="description-20">電話番号*</p>
   		<input type="text" name="phone" class="form-text" />
