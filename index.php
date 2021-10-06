@@ -123,13 +123,13 @@
 	<main>
 		<h2 class="section-title alphabet" id="Archive">Archive</h2>
 		<div class="archive-img">
-			<div class="not-hidden-img"><a href="archives/archive.html"><img src="img/dummy.png"></a></div>
-			<div class="not-hidden-img"><a href="archives/archive.html"><img src="img/dummy.png"></a></div>
-			<div class="not-hidden-img"><a href="archives/archive.html"><img src="img/dummy.png"></a></div>
-			<div class="not-hidden-img"><a href="archives/archive.html"><img src="img/dummy.png"></a></div>
+			<div class="not-hidden-img"><a href="archives/ueda.html"><img src="img/dummy.png"></a></div>
+			<div class="not-hidden-img"><a href="archives/ogawa.html"><img src="img/archives/ogawa.jpg"></a></div>
+			<div class="not-hidden-img"><a href="archives/shibahara.html"><img src="img/dummy.png"></a></div>
+			<div class="not-hidden-img"><a href="archives/suzuki.html"><img src="img/dummy.png"></a></div>
 			<!--非表示ここから-->
 				<!-- <div class="hidden-img-flex"> -->
-			<div class="hidden-img"><a href="archives/archive.html"><img src="img/dummy.png"></a></div>
+			<div class="hidden-img"><a href="archives/takeya.html"><img src="../img/archives/takeya.jpg"></a></div>
 			<div class="hidden-img"><a href="archives/archive.html"><img src="img/dummy.png"></a></div>
 			<div class="hidden-img"><a href="archives/archive.html"><img src="img/dummy.png"></a></div>
 			<div class="hidden-img"><a href="archives/archive.html"><img src="img/dummy.png"></a></div>
@@ -156,7 +156,7 @@
         <br><br>強烈な可視光線は目を傷めるように、真実は時折痛みを伴う。芸術やその他一切の文化的活動は、目撃者になりうるし、【痛みやそれへのトラウマ、同時に癒し】を練り上げ、共感することによってカタルシスをもたらす。もはや、悲劇が日常化した現在において、言い換えれば、絶え間ない喪の現在において、二項対立はお呼びでない。接続しているかもしれないし、していないかもしれない。そうであるべきだったかもしれないし、そうでなかったことにもできる。そうした、あれであれ、これであれ、曖昧な共感と曖昧な反発と——【（曖昧な）（共感・否定・獲得・喪失・肯定・治癒・化膿・破壊…）】といった水準で、我々は抵抗し続けたい。絶えず変化しつづけるリズムが織りなす現在の網目をすり抜けて、一歩先の、いま、まさに消え去りながら揺蕩う水面で前を向く——これこそが、我々の責務である。</p>
 
 		<h2 class="section-title alphabet" id="Participants">Participants</h2>
-		<p class="description">植田理紗子／小川楽生／工藤望／柴原佳範／鈴木一生／武谷梨紗子／ホシバナ（酒井瑛一、勝沼千秋）／本堂莉理／松橋百葉／眞鍋創人／諸藤勇太／山下光</p>
+		<p class="description">植田理紗子／小川楽生／柴原佳範／鈴木一生／武谷梨紗子／ホシバナ（酒井瑛一、勝沼千秋）／本堂莉理／松橋百葉／眞鍋創人／諸藤勇太／山下光</p>
 
 		<h2 class="section-title alphabet" id="Schedule">Schedule</h2>
 		<p class="description">2021年9月24日から10月6日までのうち、4日ほどの展示を想定する。</p>
