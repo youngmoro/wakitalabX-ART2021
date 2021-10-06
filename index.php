@@ -100,7 +100,7 @@
 
 <body>
 	<header>
-		<h1 class="site-title alphabet">Wakita Lab X-ART 2021</h1>
+		<h1 class="site-title alphabet"><a href="https://wakitalab-x-art.tk">Wakita Lab X-ART 2021</a></h1>
 		<nav class="nav-titles alphabet">
 			<ul>
 				<li class="nav-title"><a href="#Archive" class="nav-link">Archive</a></li>
@@ -116,7 +116,7 @@
 
   <div class="header-background">
     <div class="main-visual">
-      <img src="img/header-img.png">
+      <img src="img/headerImg.png">
     </div>
   </div>
 
@@ -130,11 +130,12 @@
 			<!--非表示ここから-->
 				<!-- <div class="hidden-img-flex"> -->
 			<div class="hidden-img"><a href="archives/takeya.html"><img src="../img/archives/takeya.jpg"></a></div>
-			<div class="hidden-img"><a href="archives/archive.html"><img src="img/dummy.png"></a></div>
-			<div class="hidden-img"><a href="archives/archive.html"><img src="img/dummy.png"></a></div>
-			<div class="hidden-img"><a href="archives/archive.html"><img src="img/dummy.png"></a></div>
-			<div class="hidden-img"><a href="archives/archive.html"><img src="img/dummy.png"></a></div>
-			<div class="hidden-img"><a href="archives/archive.html"><img src="img/dummy.png"></a></div>
+			<div class="hidden-img"><a href="archives/hoshibana.html"><img src="img/dummy.png"></a></div>
+			<div class="hidden-img"><a href="archives/lily.html"><img src="../img/archives/lily.jpg"></a></div>
+			<div class="hidden-img"><a href="archives/matsuhashi.html"><img src="img/dummy.png"></a></div>
+			<div class="hidden-img"><a href="archives/manabe.html"><img src="../img/archives/manabe.jpg"></a></div>
+			<div class="hidden-img"><a href="archives/morofuji.html"><img src="../img/archives/morofuji.jpg"></a></div>
+      <div class="hidden-img"><a href="archives/yamashita.html"><img src="../img/archives/yamashita.jpg"></a></div>
 				<!-- </div> -->
 			<!--ここまで-->
 		</div>
@@ -159,7 +160,7 @@
 		<p class="description">植田理紗子／小川楽生／柴原佳範／鈴木一生／武谷梨紗子／ホシバナ（酒井瑛一、勝沼千秋）／本堂莉理／松橋百葉／眞鍋創人／諸藤勇太／山下光</p>
 
 		<h2 class="section-title alphabet" id="Schedule">Schedule</h2>
-		<p class="description">2021年9月24日から10月6日までのうち、4日ほどの展示を想定する。</p>
+		<p class="description">2021年10月1日-2021年10月9日</p>
 
 		<h2 class="section-title  alphabet" id="Access">Access</h2>
 		<p class="description">慶應義塾大学 湘南藤沢キャンパス ゼータ館　〒252-0882 神奈川県藤沢市遠藤5322</p>
@@ -168,22 +169,25 @@
 		</div>
 
 		<h2 class="section-title  alphabet" id="curatorsNote">Curator's Note</h2>
-		<a href="curators/curatorsNote.html"><p class="description child-hover">タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</p>
-		<p class="date child-hover">2021.08.31</p>
+		<a href="curators/0726.html"><p class="description child-hover">脇田研究会の最終発表がそろそろ控えている。個々人で作品を仕上げるスタンスゆえ、作品全体を...</p>
+		<p class="date child-hover">2021.07.26</p>
 		<hr class="child-hover"></a>
-		<a href="curators/curatorsNote.html"><p class="description child-hover">タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</p>
-		<p class="date child-hover">2021.08.31</p>
+		<a href="curators/0810.html"><p class="description child-hover">別の展示で緊急ミーティングが入る。五時間半かかってようやく最終的な意思決定に至った。この..</p>
+		<p class="date child-hover">2021.08.10</p>
 		<hr class="child-hover"></a>
-		<a href="curators/curatorsNote.html"><p class="description child-hover">タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</p>
-		<p class="date child-hover">2021.08.31</p>
+		<a href="curators/0830.html"><p class="description child-hover">もう遅いと思った時には、あるいは気づいた時には、往々にしてすでに離れている。すでに形成さ...</p>
+		<p class="date child-hover">2021.08.30</p>
 		<hr class="child-hover"></a>
 		<div class="hidden-note">
-			<a href="curators/curatorsNote.html"><p class="description child-hover">タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</p>
-			<p class="date child-hover">2021.08.31</p>
-			<hr class="child-hover"></a>
-			<a href="curators/curatorsNote.html"><p class="description child-hover">タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</p>
-			<p class="date child-hover">2021.08.31</p>
-			<hr class="child-hover"></a>
+		<a href="curators/0913.html"><p class="description child-hover">デザインの依頼や発表資料や外部審査の資料作成も、すこしだけ目処がついてきた。研究会の展示...</p>
+		<p class="date child-hover">2021.09.13</p>
+		<hr class="child-hover"></a>
+		<a href="curators/0919.html"><p class="description child-hover">Life goes onというセリフを思い浮かべる。それでも人生は続くのだし、止まっていたように思...</p>
+		<p class="date child-hover">2021.09.19</p>
+		<hr class="child-hover"></a>
+    <a href="curators/0928.html"><p class="description child-hover">なんの役にも立たない作品は、なんの役にも立たなくていい。至極当たり前のことだ。私は、その...</p>
+    <p class="date child-hover">2021.09.28</p>
+    <hr class="child-hover"></a>
 		</div>
 		<div class="button-wrapper"><button id="view-more-note" class="view-more" type="button">
 				<p class="text-more"></p>
