@@ -162,7 +162,7 @@
 		<h2 class="section-title alphabet" id="Schedule">Schedule</h2>
 		<p class="description">2021年10月1日-2021年10月9日</p>
 
-		<h2 class="section-title  alphabet" id="Access">Access</h2>
+		<h2 class="section-title alphabet" id="Access">Access</h2>
 		<p class="description">慶應義塾大学 湘南藤沢キャンパス ゼータ館　〒252-0882 神奈川県藤沢市遠藤5322</p>
 		<div class="gmap">
 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d725.3058142190275!2d139.42844755128576!3d35.38658129150853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601853ea5f37a509%3A0xb3a89351b539a82a!2z44CSMjUyLTA4MTYg56We5aWI5bed55yM6Jek5rKi5biC6YGg6JekIM6WKOOCvOODvOOCvynppKg!5e0!3m2!1sja!2sjp!4v1630743467267!5m2!1sja!2sjp" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
