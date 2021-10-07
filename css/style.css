@@ -12,6 +12,10 @@ a:hover .child-hover{
   opacity: 0.2;
 }
 
+img{
+  object-fit: cover;
+}
+
 html {
   box-sizing: border-box;
 }
@@ -77,10 +81,7 @@ ul {
   overflow:hidden;
 }
 
-
 .archive-img img {
-  /* margin-right: 10px;
-  margin-left: 10px; */
   margin-top: 2vw;
   max-width: 100%;
   max-height: 100%;
@@ -282,8 +283,12 @@ max-width: 100%;
     margin-left: 59px;
     margin-right: 59px;
   }
-}
 
+  .archive-img img{
+    width: calc(100vw - 59px * 2);
+    height: calc((100vw - 59px * 2) / 225.5 * 126);
+  }
+}
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
@@ -291,9 +296,11 @@ max-width: 100%;
     margin-left: 90px;
     margin-right: 90px;
   }
+
   .gmap {
     padding-bottom: 56.25%;
   }
+
 }
 
 /* Medium devices (tablets, 768px and up) */
