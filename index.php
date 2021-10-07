@@ -126,7 +126,7 @@
 			<div class="not-hidden-img"><a href="archives/ueda.html"><img src="img/dummy.png"></a></div>
 			<div class="not-hidden-img"><a href="archives/ogawa.html"><img src="img/archives/ogawa.jpg"></a></div>
 			<div class="not-hidden-img"><a href="archives/shibahara.html"><img src="img/dummy.png"></a></div>
-			<div class="not-hidden-img"><a href="archives/suzuki.html"><img src="img/dummy.png"></a></div>
+			<div class="not-hidden-img"><a href="archives/suzuki.html"><img src="/img/archives/suzuki.jpg"></a></div>
 			<!--非表示ここから-->
 				<!-- <div class="hidden-img-flex"> -->
 			<div class="hidden-img"><a href="archives/takeya.html"><img src="../img/archives/takeya.jpg"></a></div>
