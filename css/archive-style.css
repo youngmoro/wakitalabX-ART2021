@@ -40,3 +40,17 @@
 .link{
   color: black;
 }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+
+  .caption-20{
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .caption-40{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 30px;
+  }
+}
