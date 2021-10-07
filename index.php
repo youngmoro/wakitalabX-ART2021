@@ -123,7 +123,7 @@
 	<main>
 		<h2 class="section-title alphabet" id="Archive">Archive</h2>
 		<div class="archive-img">
-			<div class="not-hidden-img"><a href="archives/ueda.html"><img src="img/dummy.png"></a></div>
+			<div class="not-hidden-img"><a href="archives/ueda.html"><img src="img/archives/ueda.jpg"></a></div>
 			<div class="not-hidden-img"><a href="archives/ogawa.html"><img src="img/archives/ogawa.jpg"></a></div>
 			<div class="not-hidden-img"><a href="archives/shibahara.html"><img src="/img/archives/shibahara.jpg"></a></div>
 			<div class="not-hidden-img"><a href="archives/suzuki.html"><img src="/img/archives/suzuki.jpg"></a></div>
@@ -132,10 +132,10 @@
 			<div class="hidden-img"><a href="archives/takeya.html"><img src="../img/archives/takeya.jpg"></a></div>
 			<div class="hidden-img"><a href="archives/hoshibana.html"><img src="img/dummy.png"></a></div>
 			<div class="hidden-img"><a href="archives/lily.html"><img src="../img/archives/lily.jpg"></a></div>
-			<div class="hidden-img"><a href="archives/matsuhashi.html"><img src="img/dummy.png"></a></div>
 			<div class="hidden-img"><a href="archives/manabe.html"><img src="../img/archives/manabe.jpg"></a></div>
 			<div class="hidden-img"><a href="archives/morofuji.html"><img src="../img/archives/morofuji.jpg"></a></div>
       <div class="hidden-img"><a href="archives/yamashita.html"><img src="../img/archives/yamashita.jpg"></a></div>
+			<div class="hidden-img"><a href="archives/shibahara2.html"><img src="/img/archives/shibahara2.jpg"></a></div>
 				<!-- </div> -->
 			<!--ここまで-->
 		</div>
